@@ -16,7 +16,7 @@ namespace The_Sim_4_Mod_Manager
         private static readonly Color AppBarColor = Color.FromArgb(41, 44, 50);
         private static readonly Color AppBarBtnTextColor = Color.LightGray;
         private static readonly Color FormBackColor = Color.FromArgb(46, 49, 53);
-        private static readonly int AppBarHeight = 50;
+        private static readonly int AppBarHeight = 42;
 
 
         // Import the SetWindowRegion API
@@ -63,7 +63,7 @@ namespace The_Sim_4_Mod_Manager
                 Dock = DockStyle.Right,
             };
             exitBtn.FlatAppearance.BorderSize = 0;
-            exitBtn.Font = new Font(exitBtn.Font.FontFamily, 12);
+            exitBtn.Font = new Font(exitBtn.Font.FontFamily, 10);
             exitBtn.Click += ExitBtn_Click!;
 
 
